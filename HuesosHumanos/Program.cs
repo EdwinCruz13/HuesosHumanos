@@ -29,7 +29,7 @@ public class Program
 
         //ordenar de acuerdo a un criterio
         Console.WriteLine("Ordenando de acuerdo al criterio peso.....");
-        esqueleto.Ordenar(EnumCriterio.Nombre);
+        esqueleto.Ordenar("Peso");
         esqueleto.Imprimir();
 
         //ordenar de acuerdo a un criterio
